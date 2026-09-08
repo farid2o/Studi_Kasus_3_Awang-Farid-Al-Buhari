@@ -21,7 +21,7 @@ PENJELASAN
 Jika buku ditemukan → judul ditambahkan ke pinjaman dengan pinjaman.append() dan muncul pesan "Buku berhasil dipinjam!".
 Jika tidak ditemukan → muncul pesan "Buku tidak tersedia.".
 
-*Peter dapat memilih menu hapus, program menampilkan isi pinjaman lalu menghapus judul yang diminta menggunakan pinjaman.remove().
+*Peter dapat memilih menu hapus. Program akan menampilkan isi list pinjaman terlebih dahulu. Jika list kosong, muncul pesan bahwa tidak ada buku yang dipinjam. Jika ada, program mengecek apakah judul yang ingin dihapus terdapat di dalam pinjaman. Jika ditemukan, judul dihapus menggunakan pinjaman.remove(). Jika tidak ditemukan, muncul pesan bahwa buku tidak ada dalam daftar pinjaman.
 
 *Setelah Peter memilih "Selesai", program menampilkan seluruh isi akhir pinjaman, yaitu daftar final buku yang sedang dipinjam Peter.
 
